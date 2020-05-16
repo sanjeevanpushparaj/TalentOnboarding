@@ -1,0 +1,38 @@
+﻿.navbar{
+    background-color: #000;
+    
+}
+.navbar .navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: white;
+}
+
+.navbar .navbar-brand:hover { 
+    color: white;
+}
+.navbar .navbar-brand:focus {
+    color: white;
+}
+nav .navbar-nav li a {
+    color: white !important;
+}
+nav .navbar-nav li a:hover {
+    color: white !important;
+}
+nav .navbar-nav li a:focus {
+    color: green !important;
+}
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
